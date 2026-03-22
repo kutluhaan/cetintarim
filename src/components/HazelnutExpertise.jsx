@@ -67,16 +67,6 @@ const HazelnutExpertise = () => {
                     Toprak analizi yaparak beslenme eksikliklerini tespit eder, 
                     size özel gübre programı hazırlarız.
                   </p>
-                  <div className="flex justify-center">
-                    <a 
-                      href="https://wa.me/905551234567?text=Merhaba, ücretsiz toprak analizi hakkında bilgi almak istiyorum."
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-accent hover:bg-accent/90 text-white px-4 sm:px-6 py-3 rounded-full font-medium transition-all duration-200 inline-block text-sm sm:text-base text-center w-full sm:w-auto"
-                    >
-                      Ücretsiz Analiz Talebi
-                    </a>
-                  </div>
                 </div>
                 <div className="ml-6 flex-shrink-0">
                   <img 
@@ -139,18 +129,6 @@ const HazelnutExpertise = () => {
                   Hastalık belirtilerini erken tespit ederek etkili çözümler sunar, 
                   mahsul kaybını minimum seviyede tutarız.
                 </p>
-                <div className="flex justify-center">
-                  <a 
-                    href="https://wa.me/905551234567?text=Merhaba, ziraat mühendisiyle hasat toplantısı talep ediyorum."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-accent hover:bg-accent/90 text-white px-4 sm:px-6 lg:px-8 py-3 rounded-full font-medium transition-all duration-200 inline-block text-sm sm:text-base text-center w-full sm:w-auto"
-                  >
-                    <span className="block sm:hidden">Ziraat Müh. Toplantısı</span>
-                    <span className="hidden sm:block lg:hidden">Ziraat Mühendisi Toplantısı</span>
-                    <span className="hidden lg:block">Ziraat Mühendisiyle Hasat Toplantısı Talebi</span>
-                  </a>
-                </div>
               </div>
             </div>
 

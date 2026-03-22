@@ -2,15 +2,9 @@ import { MapPin, Phone, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
   const handleMapClick = () => {
-    // Copy coordinates to clipboard or open in maps app
-    const coordinates = "40.901946460248844,37.52855177105124";
-    navigator.clipboard.writeText(coordinates).then(() => {
-      // Optionally show a toast notification
-      alert("Konum kopyalandı!");
-    }).catch(() => {
-      // Fallback: open in Google Maps
-      window.open(`https://www.google.com/maps?q=${coordinates}`, '_blank');
-    });
+    // Open the specific Google Maps location
+    const mapUrl = "https://maps.app.goo.gl/z9Z8WDZipEJcpVYT6";
+    window.open(mapUrl, '_blank');
   };
 
   return (
@@ -39,7 +33,7 @@ const Footer = () => {
                   Adresimiz
                 </h4>
                 <p className="text-white/90 leading-relaxed">
-                  Mert Market,Taşoluk, 52430 Çamaş/Ordu
+                  Taşoluk Mah. Fatsa Cad. No: 64/A, 52430 Çamaş/Ordu
                 </p>
               </div>
 
@@ -88,10 +82,10 @@ const Footer = () => {
               <div 
                 className="bg-white rounded-2xl overflow-hidden shadow-xl cursor-pointer hover:shadow-2xl transition-shadow"
                 onClick={handleMapClick}
-                title="Konumu kopyalamak için tıklayın"
+                title="Haritalarda açmak için tıklayın"
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d266.5464884475594!2d37.52855177105124!3d40.901946460248844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1774186561536!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d266.5464884475594!2d37.528635!3d40.901958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1774186561536!5m2!1str!2str"
                   width="100%"
                   height="300"
                   style={{ border: 0, pointerEvents: 'none' }}

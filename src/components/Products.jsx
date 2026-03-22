@@ -471,14 +471,12 @@ const Products = () => {
                   
                   {/* CTA Button */}
                   <div className="flex justify-center">
-                    <a 
-                      href={`https://wa.me/905551234567?text=${encodeURIComponent(product.whatsappMessage)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <button 
+                      onClick={() => openModal(product)}
                       className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 inline-block text-sm"
                     >
-                      Detaylı Bilgi İste
-                    </a>
+                      Detaylı Bilgi
+                    </button>
                   </div>
                 </div>
               </div>

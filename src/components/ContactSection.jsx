@@ -10,11 +10,8 @@ const ContactSection = () => {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
-            İletişime Geçin &
+            İletişime Geçin
           </h2>
-          <h3 className="text-2xl md:text-3xl font-serif font-bold text-white/90">
-            Sipariş Kaydı Oluşturun
-          </h3>
         </div>
 
         {/* Contact Information */}
@@ -58,32 +55,6 @@ const ContactSection = () => {
           </div>
         </div>
 
-        {/* Quick Contact Options */}
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
-          <div className="text-center">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-              <Phone className="w-6 h-6 text-white" />
-            </div>
-            <h4 className="text-white font-semibold mb-1">Hızlı Sipariş</h4>
-            <p className="text-white/70 text-sm">Telefon ile anında sipariş</p>
-          </div>
-
-          <div className="text-center">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-              <MessageCircle className="w-6 h-6 text-white" />
-            </div>
-            <h4 className="text-white font-semibold mb-1">WhatsApp Destek</h4>
-            <p className="text-white/70 text-sm">7/24 mesaj desteği</p>
-          </div>
-
-          <div className="text-center">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-              <div className="text-white text-xl">🚚</div>
-            </div>
-            <h4 className="text-white font-semibold mb-1">Hızlı Teslimat</h4>
-            <p className="text-white/70 text-sm">Türkiye geneli kargo</p>
-          </div>
-        </div>
       </div>
     </section>
   );
