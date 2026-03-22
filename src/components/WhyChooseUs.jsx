@@ -1,4 +1,3 @@
-import React from 'react';
 import { Droplets, Shield, Wheat } from 'lucide-react';
 
 const WhyChooseUs = () => {

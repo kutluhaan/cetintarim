@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Phone, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
@@ -24,7 +23,7 @@ const Footer = () => {
             <div className="order-1">
               <div className="flex items-center gap-4 mb-8">
                 <img 
-                  src="/hazelnut (1).png" 
+                  src="/hazelnut-1.png" 
                   alt="Çetin Tarım" 
                   className="w-12 h-12"
                 />
@@ -62,24 +61,24 @@ const Footer = () => {
               <div>
                 <h4 className="text-xl font-semibold mb-4">Sosyal Medya</h4>
                 <div className="flex gap-4">
-                  <a 
-                    href="#" 
+                  <button 
                     className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                    onClick={() => {/* LinkedIn link will be added later */}}
                   >
                     <Linkedin className="w-6 h-6" />
-                  </a>
-                  <a 
-                    href="#" 
+                  </button>
+                  <button 
                     className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                    onClick={() => {/* Instagram link will be added later */}}
                   >
                     <Instagram className="w-6 h-6" />
-                  </a>
-                  <a 
-                    href="#" 
+                  </button>
+                  <button 
                     className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                    onClick={() => {/* Facebook link will be added later */}}
                   >
                     <Facebook className="w-6 h-6" />
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

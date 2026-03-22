@@ -1,4 +1,3 @@
-import React from 'react';
 import { Droplets, Clock, Shield } from 'lucide-react';
 
 const HazelnutExpertise = () => {
@@ -28,7 +27,7 @@ const HazelnutExpertise = () => {
             {/* Fındık Dalı — %70, sola yapışık */}
             <div className="flex-[7] w-full overflow-hidden flex items-start justify-start">
               <img
-                src="/fındık_dali.png"
+                src="/findik-dali.png"
                 alt="Fındık Dalı"
                 className="h-full w-auto object-contain object-left-top"
                 style={{ maxWidth: '100%', display: 'block' }}
@@ -42,7 +41,7 @@ const HazelnutExpertise = () => {
                 style={{ width: '240px', height: '240px', flexShrink: 0 }}
               >
                 <img
-                  src="/kuru_yaprak.jpg"
+                  src="/kuru-yaprak.jpg"
                   alt="Kuru Yaprak"
                   className="w-full h-full object-cover"
                 />

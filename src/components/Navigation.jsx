@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 
 const Navigation = () => {
@@ -49,7 +49,7 @@ const Navigation = () => {
         {/* Logo ve Marka */}
         <div className="flex items-center space-x-3">
           <img 
-            src="/hazelnut (1).png" 
+            src="/hazelnut-1.png" 
             alt="Çetin Tarım Logo" 
             className="w-8 h-8 object-contain"
           />
