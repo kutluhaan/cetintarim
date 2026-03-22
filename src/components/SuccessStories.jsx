@@ -95,7 +95,7 @@ const SuccessStories = () => {
               İDA ürünleri ile elde ettiğiniz sonuçları bizimle paylaşın
             </p>
             <a 
-              href="https://wa.me/905551234567?text=Merhaba, İDA ürünleri ile elde ettiğim başarı hikayemi paylaşmak istiyorum."
+              href="https://wa.me/905336631899?text=Merhaba, İDA ürünleri ile elde ettiğim başarı hikayemi paylaşmak istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-full font-medium transition-all duration-200 inline-block text-lg font-serif shadow-lg hover:shadow-xl hover:scale-105"
