@@ -34,20 +34,6 @@ const HazelnutExpertise = () => {
               />
             </div>
 
-            {/* Kuru Yaprak — %30, dikey ortalanmış yuvarlak çerçeve */}
-            <div className="flex-[3] w-full flex items-center justify-center pt-8">
-              <div
-                className="rounded-full overflow-hidden border-2 border-secondary/30"
-                style={{ width: '240px', height: '240px', flexShrink: 0 }}
-              >
-                <img
-                  src="/kuru-yaprak.jpg"
-                  alt="Kuru Yaprak"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-
           </div>
 
           {/* Right Column - Content Cards */}

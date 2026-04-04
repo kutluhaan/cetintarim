@@ -587,7 +587,7 @@ const Products = () => {
                   <div className="pt-4 sm:pt-6 border-t border-primary/30">
                     <div className="flex justify-center">
                       <a 
-                        href={`https://wa.me/905551234567?text=${encodeURIComponent(selectedProduct.whatsappMessage)}`}
+                        href={`https://wa.me/905336631899?text=${encodeURIComponent(selectedProduct.whatsappMessage)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-accent hover:bg-accent/90 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-200 inline-block text-base sm:text-lg font-serif shadow-lg hover:shadow-xl hover:scale-105 w-full sm:w-auto text-center"
