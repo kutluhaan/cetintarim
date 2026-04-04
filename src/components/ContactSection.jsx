@@ -16,23 +16,6 @@ const ContactSection = () => {
 
         {/* Contact Information */}
         <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20">
-          {/* Phone Section */}
-          <div className="flex flex-col items-center mb-8">
-            <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mb-6 shadow-lg">
-              <Phone className="w-10 h-10 text-white" />
-            </div>
-            
-            <a 
-              href={`tel:${phoneNumber.replace(/\s/g, '')}`}
-              className="text-3xl md:text-4xl font-bold text-white hover:text-accent transition-colors duration-300 mb-2"
-            >
-              {phoneNumber}
-            </a>
-            
-            <p className="text-white/80 text-lg font-medium">
-              Sipariş Hattı
-            </p>
-          </div>
 
           {/* WhatsApp Button */}
           <div className="flex justify-center">
