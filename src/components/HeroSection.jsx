@@ -19,8 +19,8 @@ const HeroSection = () => {
         {/* Left Side - Text Content */}
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-white font-sans drop-shadow-lg">
-            Bereketi <span className="whitespace-nowrap">Çetin Tarım</span><br />
-            ile Hasat Et
+            <span className="whitespace-nowrap">Çetin Tarım</span><br />
+            ile Bereketi Hasat Et
           </h1>
           
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-lg font-medium drop-shadow-md">
