@@ -20,7 +20,8 @@ const HeroSection = () => {
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-white font-sans drop-shadow-lg">
             <span className="whitespace-nowrap">Çetin Tarım</span><br />
-            ile Bereketi Hasat Et
+            ile Bereketi
+            <span className="whitespace-nowrap">Hasat Et</span><br />
           </h1>
           
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-lg font-medium drop-shadow-md">
