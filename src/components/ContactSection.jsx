@@ -1,7 +1,6 @@
-import { Phone, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const ContactSection = () => {
-  const phoneNumber = "0533 663 1899";
   const whatsappNumber = "905336631899";
 
   return (
