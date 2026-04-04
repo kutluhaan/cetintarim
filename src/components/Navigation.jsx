@@ -39,8 +39,7 @@ const Navigation = () => {
     { id: 'urunler', label: 'Ürünler' },
     { id: 'findik-uzmanligi', label: 'Fındık Uzmanlığı' },
     { id: 'videolar', label: 'Videolar' },
-    { id: 'basari-hikayeleri', label: 'Başarı Hikayeleri' },
-    { id: 'iletisim', label: 'İletişim' }
+    { id: 'basari-hikayeleri', label: 'Başarı Hikayeleri' }
   ];
 
   return (
