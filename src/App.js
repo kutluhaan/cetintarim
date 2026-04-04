@@ -5,7 +5,6 @@ import HazelnutExpertise from './components/HazelnutExpertise';
 import Products from './components/Products';
 import VideoSection from './components/VideoSection';
 import SuccessStories from './components/SuccessStories';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Products />
       <VideoSection />
       <SuccessStories />
-      <ContactSection />
       <Footer />
     </div>
   );
